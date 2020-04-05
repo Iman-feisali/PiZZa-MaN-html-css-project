@@ -279,6 +279,7 @@ nav {
   .table {
     width: 100%;
     display: flex;
+    height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
