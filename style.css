@@ -112,7 +112,7 @@ nav {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -209,6 +209,7 @@ nav {
   .header {
     width: 100%;
     height: 30vh;
+    margin-top: -3vh;
   }
 
   .header-img {
@@ -216,8 +217,8 @@ nav {
   }
 
   .logo {
-    width: 50vw;
-    height: 23vh;
+    width: 188px;
+    height: 188px;
     margin: 0 auto;
   }
 
@@ -248,8 +249,11 @@ nav {
     position: relative;
     background-color: black;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     width: 100vw;
+    margin-top: 2.5vh;
+    text-align: center;
   }
 
   .navbar a {
@@ -310,9 +314,10 @@ nav {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    overflow: auto;
   }
 
   /* Links inside the dropdown */
@@ -418,8 +423,8 @@ nav {
   }
 
   .logo {
-    width: 50vw;
-    height: 32vh;
+    width: 384px;
+    height: 384px;
     margin: 0 auto;
   }
 
@@ -452,6 +457,7 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 100vw;
+    margin-top: 1vh;
   }
 
   .navbar a {
@@ -509,7 +515,7 @@ nav {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
@@ -562,6 +568,7 @@ nav {
 
   .side-title {
     align-self: center;
+    margin-left: 100px;
   }
 
   .checkout-btn {
@@ -704,6 +711,7 @@ nav {
   .dropbtn {
     width: 250px;
     background-color: rgb(247, 179, 96);
+    position: relative;
   }
 
   .dropdown {
@@ -717,7 +725,7 @@ nav {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }

@@ -8,6 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://www.freelogodesign.org/file/app/client/thumb/d2c9f766-2bba-4b05-9529-112d479f7344_200x200.png?1585317335572"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
@@ -17,10 +27,7 @@
   <body>
     <div class="header">
       <nav class="nav">
-        <img
-          class="logo"
-          src="https://www.freelogodesign.org/file/app/client/thumb/d2c9f766-2bba-4b05-9529-112d479f7344_200x200.png?1585317335572"
-        />
+        <img class="logo" src="./images/Logo.png" />
 
         <ul>
           <li>
@@ -42,12 +49,12 @@
     </div>
     <navbar>
       <div class="navbar">
-        <a href="#">Deals</a>
-        <a href="#">Pizzas</a>
-        <a href="#">Sides</a>
-        <a href="#">Dips</a>
-        <a href="#">Dessert</a>
-        <a href="#">Drinks</a>
+        <a href="deals">Deals</a>
+        <a href="pizzas">Pizzas</a>
+        <a href="sides">Sides</a>
+        <a href="dips">Dips</a>
+        <a href="dessert">Dessert</a>
+        <a href="drinks">Drinks</a>
       </div>
     </navbar>
     <main>
@@ -62,8 +69,10 @@
           <p class="ingredients">Double Pepperoni, Extra Mozzarella Cheese</p>
           <p>select your size</p>
           <div class="dropdown">
-            <button type="button" class="dropbtn btn">size</button>
-            <div class="dropdown-content">
+            <button onclick="myFunction()" type="button" class="dropbtn btn">
+              size
+            </button>
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Small</a>
               <a href="#">Medium</a>
               <a href="#">Large</a>
@@ -83,8 +92,10 @@
           </p>
           <p>select your size</p>
           <div class="dropdown">
-            <button type="button" class="dropbtn btn">size</button>
-            <div class="dropdown-content">
+            <button onclick="myFunction()" type="button" class="dropbtn btn">
+              size
+            </button>
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Small</a>
               <a href="#">Medium</a>
               <a href="#">Large</a>
@@ -104,8 +115,10 @@
           </p>
           <p>select your size</p>
           <div class="dropdown">
-            <button type="button" class="dropbtn btn">size</button>
-            <div class="dropdown-content">
+            <button onclick="myFunction()" type="button" class="dropbtn btn">
+              size
+            </button>
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Small</a>
               <a href="#">Medium</a>
               <a href="#">Large</a>
@@ -123,8 +136,10 @@
           <p class="ingredients">Ham, Pineapple</p>
           <p>select your size</p>
           <div class="dropdown">
-            <button type="button" class="dropbtn btn">size</button>
-            <div class="dropdown-content">
+            <button onclick="myFunction()" type="button" class="dropbtn btn">
+              size
+            </button>
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Small</a>
               <a href="#">Medium</a>
               <a href="#">Large</a>
@@ -144,8 +159,10 @@
           </p>
           <p>select your size</p>
           <div class="dropdown">
-            <button type="button" class="dropbtn btn">size</button>
-            <div class="dropdown-content">
+            <button onclick="myFunction()" type="button" class="dropbtn btn">
+              size
+            </button>
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Small</a>
               <a href="#">Medium</a>
               <a href="#">Large</a>
@@ -164,7 +181,7 @@
           <p>select your size</p>
           <div class="dropdown">
             <button type="button" class="dropbtn btn">size</button>
-            <div class="dropdown-content">
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Small</a>
               <a href="#">Medium</a>
               <a href="#">Large</a>
@@ -193,4 +210,5 @@
       </div>
     </footer>
   </body>
+  <script src="../PiZZa MaN WEB/myScripts.js"></script>
 </html>
